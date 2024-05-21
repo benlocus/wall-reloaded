@@ -36,6 +36,6 @@ const isContentType = (request: Request, ...types: string[]) =>
 const isFormContentType = (request: Request) =>
   isContentType(
     request,
-    'application/x-www-form-urlencoded',
+    // 'application/x-www-form-urlencoded',
     'multipart/form-data',
   )
